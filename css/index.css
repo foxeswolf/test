@@ -1,0 +1,155 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+
+ul li{
+	list-style: none;
+}
+html,body{
+	height: 100%;
+}
+
+/*header*/
+header{
+	position: relative;
+	top: 0px;
+	background: #00b38a;
+	text-align: center;
+	line-height: 45px;
+}
+header h3{
+	font-size: 20px;
+}
+
+header h3 a{
+	color: white;
+}
+
+/*login*/
+.login{
+	height: 43px;
+	line-height: 43px;
+	padding: 0px 15px;
+	position: relative;
+	border-bottom: 1px solid #cccccc;
+}
+.login h4{
+	font-weight: normal;
+	position: absolute;
+	left: 15px;
+	color: #666;
+}
+.login a{
+	display: block;
+	font-weight: normal;
+	position: absolute;
+	top: 0px;
+	right: 15px;
+	height: 30px;
+	font-size: 16px;
+	line-height: 30px;
+	border-radius: 15px;
+	background: #f5f5f5;
+	padding: 0px 20px;
+	color: #00b38a;
+	margin-top: 6px;
+}
+/*section*/
+section>div{
+	padding: 14px;
+	border-bottom: 1px solid #e8e8e8;
+}
+section>div img{
+	display: inline-block;
+    float: left;
+    width: 60px;
+    height: 60px;
+}
+section>div dl{
+	margin-left: 70px;
+    height: 62px;
+    color: #333;
+}
+section>div dl dt{
+	font-size: 16px;
+    margin-bottom: 6px;
+    width: 80%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    font-weight: 600;
+}
+section>div dl dd{
+    margin-bottom: 6px;
+    width: 100%;
+    height: 15px;
+    line-height: 15px;	
+}
+section>div dl dd:nth-child(2) span:nth-child(1){
+	font-size: 14px;
+    float: left;
+    width: 60%;
+    display: inline-block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+section>div dl dd:nth-child(2) span:nth-child(2){
+	font-size: 14px;
+    color: #00b38a;
+    float: right;
+}
+section>div dl dd:nth-child(3){
+	font-size: 12px;
+    color: #888;
+}
+
+/*footer*/
+footer{
+	width: 100%;
+    height: 45px;
+    line-height: 45px;
+    border-top: 1px solid #e8e8e8;
+    background: #f6f6f6;
+    color: #c2cfcc;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    display: -webkit-box;
+    display: box;
+}
+footer>div{
+    width: 33.33%;
+    text-align: center;
+}
+footer div:nth-child(1){
+	background: #e7f3f0;
+}
+footer>div>a{
+	color: #00b38a;
+}
+footer>div>a span{
+	display: inline-block;
+    width: 18px;
+    height: 17px;
+    margin-bottom: -2px;
+}
+.icon1{
+	background: url(../img/icon2.png) no-repeat -32px -20.5px;
+    background-size: 250px 250px;
+}
+	
+.icon2{
+	background: url(../img/icon2.png) no-repeat -14px -2.5px;
+    background-size: 250px 250px;
+}
+.icon3{
+	background: url(../img/icon2.png) no-repeat -52.5px -2px;
+    background-size: 250px 250px;
+}
