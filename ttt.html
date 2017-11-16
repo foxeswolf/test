@@ -2,9 +2,25 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no" />
 		<title></title>
+		<link rel="stylesheet" href="css/ttt.css" />
 	</head>
 	<body>
-		srgewry
+	    <header>
+	    	<a href="https://www.baidu.com/">aaa</a>
+	    	<div id="box">ccc</div>
+	    </header>
+	    <script type="text/javascript">
+	    	var box=document.getElementById("box")
+	    	box.addEventListener("touchstart",function(even){
+	    		even.preventDefault();
+	    		this.innerHTML=even.targetTouches.length;
+	    	});
+	    	box.addEventListener("touchstart",function(even){
+	    		even.preventDefault();
+	    		this.innerHTML=even.changedTouches.length;
+	    	});
+	    </script>
 	</body>
 </html>
